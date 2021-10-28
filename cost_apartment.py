@@ -61,8 +61,8 @@ class CostApartment():
             self._lst_result.append(dic)
             #print('...')
 
-        print('-------------------------------------------------------------------------------')
-        pprint.pprint( self._lst_result )
+        #print('-------------------------------------------------------------------------------')
+        #pprint.pprint( self._lst_result )
         return self._lst_result
 
     def cost_min(self):
